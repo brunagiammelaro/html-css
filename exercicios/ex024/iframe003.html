@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam neque porro voluptas sit dolor labore sint laboriosam incidunt eaque vero deserunt fuga repellendus architecto qui, veniam amet tempore sunt in! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit quas magni nemo mollitia assumenda culpa. Doloremque in est, sequi quidem excepturi impedit! Molestiae, molestias facere vel accusamus esse modi.</p>
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam neque porro voluptas sit dolor labore sint laboriosam incidunt eaque vero deserunt fuga repellendus architecto qui, veniam amet tempore sunt in! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit quas magni nemo mollitia assumenda culpa. Doloremque in est, sequi quidem excepturi impedit! Molestiae, molestias facere vel accusamus esse modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odio. Sapiente beatae dolor facere vel numquam, reprehenderit saepe voluptatem quaerat. Quos nihil quia incidunt necessitatibus nemo repellendus quis, fugit dicta?</p>
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam neque porro voluptas sit dolor labore sint laboriosam incidunt eaque vero deserunt fuga repellendus architecto qui, veniam amet tempore sunt in! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><img src='imagens/google.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+</body>
+</html>
